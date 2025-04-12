@@ -12,7 +12,7 @@ function App() {
     setLoading(true);
     setError('');
     try {
-      const response = await fetch('https://your-vercel-app.vercel.app/api/keywords', {
+      const response = await fetch('https://keyword-research-backend.vercel.app', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ query }),
