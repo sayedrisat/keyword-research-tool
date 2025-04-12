@@ -1,0 +1,19 @@
+{
+  "name": "keyword-research-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "homepage": "https://your-username.github.io/keyword-research-tool"
+}
